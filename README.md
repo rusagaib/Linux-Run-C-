@@ -14,20 +14,20 @@ Instal compiler c++ di linux kita (ubuntu 16.04);
 1. Copy file conio.h dari directory awal ke '/usr/include/'
    Run as root user:
    
-      sudo su
+            sudo su
       
-      cd 'directory-awal'
+       cd 'directory-awal'
       
-      cp conio.h /usr/include/
+            cp conio.h /usr/include/
       
 # Cara Jalankan Script '.cpp' anda:
 1. Compile dulu script dengan:
 
-      g++ -o namafile namafile.cpp
+       g++ -o namafile namafile.cpp
       
 2. Kemudian Jalankan script anda :
 
-      ./namafile
+       ./namafile
 
 # List Fungsi di (conio.h):
     cprintf
